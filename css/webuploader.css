@@ -1,0 +1,124 @@
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: #0db3a2;
+	/*padding: 10px 15px;*/
+	width: 86px;
+	height: 41px;
+	line-height: 41px;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	overflow: hidden;
+}
+#ctlBtn{
+	width: 86px;
+	height: 41px;
+	line-height: 41px;
+	background: #0db3a2;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.webuploader-pick-hover {
+	background: #3bc0b2;
+}
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+#uploadfile{
+	padding: 0 20px;
+}
+#uploadfile .btn{
+	background: #0db3a2;
+	color: #fff;
+}
+#picker{
+	width: 86px;
+	height: 41px;
+	margin-bottom: 20px;
+}
+#picker div:nth-child(2){
+	width:100% !important;
+	height:100% !important;
+}
+#ctlBtn:hover{
+	background: #3bc0b2;
+	color: #fff;
+}
+#thelist{
+	height: 210px;
+	border: 1px solid #ececec;
+	border-top: none;
+	overflow-y: auto;
+	margin-bottom: 20px;
+}
+#thelist .table{
+	margin-bottom: 0;
+}
+.table td.file-manage a{
+	margin: 0 5px;
+}
+.stop-btn{
+	color: #fc4949;
+}
+.table td.file-pro{
+	position: relative;
+}
+.file-name{
+	word-wrap: break-word;
+}
+.progress-striped .progress-bar{
+	background-image: none;
+	margin-bottom: 5px;
+}
+.progress-bar{
+	width: 120px;
+	background:#0db3a2;
+	border-radius: 5px;
+}
+.file-item .file-progress{
+	position: absolute;
+	height: 8px;
+	top: 7px;
+	left: 10px;
+	right: 10px;
+}
+.file-item .file-progress .per{
+	display: block;
+}
+.file-item .file-progress-bar {
+	background: #0db3a2;
+	float: left;
+	height: 100%;
+}
+.table{
+	table-layout: fixed;
+	border: 1px solid #ececec;
+}
+.table td a{
+	color: #0db3a2;
+}
+.table tr th{
+	height: 40px;
+	line-height: 40px;
+	font-weight: normal;
+	background: #f2f2f2;
+	text-align: center;
+}
+.table tr td{
+	height: 40px;
+	min-height: 40px;
+	text-align: center;
+}
